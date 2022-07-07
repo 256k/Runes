@@ -32,7 +32,7 @@ function stopTimer() {
 }
 
 function calcBPMmillis() {
-    return Math.round((60 / (settings.bpm * 16)) * 1000)
+    return Math.round((60 / (settings.bpm * 4)) * 1000)
 
 }
 
